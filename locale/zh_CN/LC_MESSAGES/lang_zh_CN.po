@@ -1,0 +1,283 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2020-06-29 12:36-0500\n"
+"PO-Revision-Date: 2020-06-29 12:37-0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3.1\n"
+"X-Poedit-Basepath: ../../../..\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SearchPath-0: GUI.py\n"
+"X-Poedit-SearchPath-1: Main.py\n"
+"X-Poedit-SearchPath-2: Sender.py\n"
+
+#: GUI.py:22
+msgid "Sample Mail Submitter"
+msgstr "上报可疑文件"
+
+#: GUI.py:29
+msgid "Choose File(s)"
+msgstr "选择单个/多个文件"
+
+#: GUI.py:31 Sender.py:156
+msgid "#Drag all file(s) here. One line per file."
+msgstr "#拖拽文件至此，每行单个文件。"
+
+#: GUI.py:37
+msgid "EMail Account"
+msgstr "Email 信息"
+
+#: GUI.py:41
+msgid "Email Adress: "
+msgstr "邮箱地址： "
+
+#: GUI.py:49
+msgid "Password: "
+msgstr "邮箱密码： "
+
+#: GUI.py:57
+msgid "Remember"
+msgstr "记住"
+
+#: GUI.py:60
+msgid "SMTP Adress: "
+msgstr "SMTP地址： "
+
+#: GUI.py:68
+msgid "Port: "
+msgstr "端口： "
+
+#: GUI.py:82
+msgid "Submission Type"
+msgstr "上报类型"
+
+#: GUI.py:86
+msgid "False Negative"
+msgstr "漏报文件"
+
+#: GUI.py:90
+msgid "False Positive"
+msgstr "误报文件"
+
+#: GUI.py:93
+msgid "Zip Password"
+msgstr "压缩密码"
+
+#: GUI.py:96
+msgid "Customize..."
+msgstr "自定义..."
+
+#: GUI.py:107
+msgid "Vendors"
+msgstr "厂商"
+
+#: GUI.py:111
+msgid "Selected Vendors: "
+msgstr "已选厂商： "
+
+#: GUI.py:116
+msgid "Vendor List: "
+msgstr "厂商列表： "
+
+#: GUI.py:127
+msgid "<<"
+msgstr "<<"
+
+#: GUI.py:130
+msgid ">>"
+msgstr ">>"
+
+#: GUI.py:133
+msgid "..."
+msgstr "..."
+
+#: GUI.py:139
+msgid "Kaspersky;newvirus@kaspersky.com"
+msgstr ""
+
+#: GUI.py:139
+msgid "ESET;samples@eset.sk"
+msgstr ""
+
+#: GUI.py:139
+msgid "Avira;virus@avira.com"
+msgstr ""
+
+#: GUI.py:139
+msgid "Huorong;seclab@huorong.cn"
+msgstr ""
+
+#: GUI.py:139
+msgid "BitDefender;oemsamples@bitdefender.com"
+msgstr ""
+
+#: GUI.py:151
+msgid "Other Settings: "
+msgstr "其他设置： "
+
+#: GUI.py:153
+msgid "Program Language: "
+msgstr "程序语言： "
+
+#: GUI.py:158
+msgid "English"
+msgstr "English"
+
+#: GUI.py:158
+msgid "Chinese Simplified"
+msgstr "简体中文"
+
+#: GUI.py:168
+msgid "Pack All to Desktop"
+msgstr "打包至桌面"
+
+#: GUI.py:171
+msgid "Pack and Submit All"
+msgstr "打包+提交全部"
+
+#: GUI.py:242
+msgid "Custom Mail Content"
+msgstr "自定义邮件内容"
+
+#: GUI.py:251
+msgid "False Negative Text"
+msgstr "漏报邮件内容"
+
+#: GUI.py:256
+msgid "False Positive Text"
+msgstr "误报邮件内容"
+
+#: GUI.py:277
+msgid "OK"
+msgstr "确定"
+
+#: GUI.py:280
+msgid "Cancel"
+msgstr "取消"
+
+#: Main.py:29
+msgid "Enter password for compressing"
+msgstr "输入压缩密码"
+
+#: Main.py:30
+msgid "Set Zip Password"
+msgstr "设置压缩密码"
+
+#: Main.py:37
+msgid "Password Cannot be Empty"
+msgstr "密码不能为空"
+
+#: Main.py:38 Main.py:81 Main.py:106 Sender.py:97 Sender.py:110 Sender.py:144
+msgid "ERROR"
+msgstr "错误"
+
+#: Main.py:48
+msgid "Password will be stored in the local config file. Continue?"
+msgstr "邮箱密码将会保存到本地配置文件。是否继续？"
+
+#: Main.py:49
+msgid "WARNING"
+msgstr "警告"
+
+#: Main.py:69
+msgid "Use \";\" to separate name and email."
+msgstr "使用“;”区分厂商名称和邮件地址。"
+
+#: Main.py:70
+msgid "Edit Vendor List"
+msgstr "编辑厂商列表"
+
+#: Main.py:80
+msgid "Incorrect Data Format"
+msgstr "数据格式错误"
+
+#: Main.py:93
+msgid "Sending Samples..."
+msgstr "发送样本..."
+
+#: Main.py:105
+msgid "Cannot Access Sample File(s). Check paths."
+msgstr "无法读取样本文件。请检查路径。"
+
+#: Main.py:110
+msgid "Pack to Desktop succeed!"
+msgstr "成功打包样本至桌面！"
+
+#: Main.py:111 Sender.py:153
+msgid "INFO"
+msgstr "信息"
+
+#: Main.py:157
+#, python-brace-format
+msgid ""
+"Hello,\n"
+"\n"
+"The attached files may contain threats. Require for the further analysis.\n"
+"\n"
+"Password: {password} \n"
+"\n"
+"Thanks! "
+msgstr ""
+
+#: Main.py:159
+#, python-brace-format
+msgid ""
+"Hello,\n"
+"\n"
+"The attached files may be clean. Require for the further analysis.\n"
+"\n"
+"Password: {password} \n"
+"\n"
+"Thanks! "
+msgstr ""
+
+#: Sender.py:96
+msgid "Missing or incorrect parameters. Check if all info filled correctly."
+msgstr "丢失参数或参数错误。请检查所有设置。"
+
+#: Sender.py:103
+msgid "Compressing Files..."
+msgstr "压缩文件中..."
+
+#: Sender.py:108
+msgid "Cannot Access Sample File(s). Check paths.\n"
+msgstr "无法读取样本文件。请检查路径。\n"
+
+#: Sender.py:116
+msgid "Composing Mail..."
+msgstr "生成邮件中..."
+
+#: Sender.py:124
+msgid "Login To Your Email..."
+msgstr "登录邮箱中..."
+
+#: Sender.py:139
+msgid "Sending Email..."
+msgstr "发送邮件中..."
+
+#: Sender.py:142
+msgid "Login Fail. Check Internet connection, your login info, or other config.\n"
+msgstr "登录邮箱失败。请检查网络连接，登录信息，或其他设置\n"
+
+#: Sender.py:151
+msgid "SUCCEED!"
+msgstr "成功！"
+
+#: Sender.py:152
+msgid "Email Sent. You may login your email to check the status."
+msgstr "邮件已发送，请登录查看发送状态。"
+
+#, python-brace-format
+#~ msgid ""
+#~ "Cannot Access Sample File(s). Check paths.\n"
+#~ "Error: {error}\n"
+#~ "Info: {info}"
+#~ msgstr ""
+#~ "无法读取样本文件。请检查路径\n"
+#~ "错误: {error}\n"
+#~ "信息: {info}"
