@@ -1,218 +1,234 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2020-06-29 12:36-0500\n"
-"PO-Revision-Date: 2020-06-29 12:37-0500\n"
+"POT-Creation-Date: 2020-07-28 10:22-0500\n"
+"PO-Revision-Date: 2020-07-28 10:23-0500\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.3.1\n"
-"X-Poedit-Basepath: ../../../..\n"
+"X-Generator: Poedit 2.4\n"
+"X-Poedit-Basepath: ../../..\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Poedit-SearchPath-0: GUI.py\n"
 "X-Poedit-SearchPath-1: Main.py\n"
 "X-Poedit-SearchPath-2: Sender.py\n"
 
-#: GUI.py:22
+#: GUI.py:23
 msgid "Sample Mail Submitter"
 msgstr "上报可疑文件"
 
-#: GUI.py:29
+#: GUI.py:30
 msgid "Choose File(s)"
 msgstr "选择单个/多个文件"
 
-#: GUI.py:31 Sender.py:156
+#: GUI.py:32 Sender.py:209
 msgid "#Drag all file(s) here. One line per file."
 msgstr "#拖拽文件至此，每行单个文件。"
 
-#: GUI.py:37
+#: GUI.py:38
 msgid "EMail Account"
 msgstr "Email 信息"
 
-#: GUI.py:41
-msgid "Email Adress: "
+#: GUI.py:42
+msgid "Email Address: "
 msgstr "邮箱地址： "
 
-#: GUI.py:49
+#: GUI.py:50
 msgid "Password: "
 msgstr "邮箱密码： "
 
-#: GUI.py:57
+#: GUI.py:58
 msgid "Remember"
 msgstr "记住"
 
-#: GUI.py:60
-msgid "SMTP Adress: "
+#: GUI.py:61
+msgid "SMTP Address: "
 msgstr "SMTP地址： "
 
-#: GUI.py:68
+#: GUI.py:69
 msgid "Port: "
 msgstr "端口： "
 
-#: GUI.py:82
+#: GUI.py:83
 msgid "Submission Type"
 msgstr "上报类型"
 
-#: GUI.py:86
+#: GUI.py:87
 msgid "False Negative"
 msgstr "漏报文件"
 
-#: GUI.py:90
+#: GUI.py:91
 msgid "False Positive"
 msgstr "误报文件"
 
-#: GUI.py:93
+#: GUI.py:94
 msgid "Zip Password"
 msgstr "压缩密码"
 
-#: GUI.py:96
+#: GUI.py:97
 msgid "Customize..."
 msgstr "自定义..."
 
-#: GUI.py:107
+#: GUI.py:108
 msgid "Vendors"
 msgstr "厂商"
 
-#: GUI.py:111
+#: GUI.py:112
 msgid "Selected Vendors: "
 msgstr "已选厂商： "
 
-#: GUI.py:116
+#: GUI.py:117
 msgid "Vendor List: "
 msgstr "厂商列表： "
 
-#: GUI.py:127
+#: GUI.py:128
 msgid "<<"
 msgstr "<<"
 
-#: GUI.py:130
+#: GUI.py:131
 msgid ">>"
 msgstr ">>"
 
-#: GUI.py:133
+#: GUI.py:134
 msgid "..."
 msgstr "..."
 
-#: GUI.py:139
-msgid "Kaspersky;newvirus@kaspersky.com"
-msgstr ""
-
-#: GUI.py:139
-msgid "ESET;samples@eset.sk"
-msgstr ""
-
-#: GUI.py:139
+#: GUI.py:140
 msgid "Avira;virus@avira.com"
 msgstr ""
 
-#: GUI.py:139
+#: GUI.py:140
+msgid "Avira;novirus@avira.com"
+msgstr ""
+
+#: GUI.py:140
+msgid "Kaspersky;newvirus@kaspersky.com"
+msgstr ""
+
+#: GUI.py:140
+msgid "Kaspersky;apac-virussample@kaspersky.com"
+msgstr ""
+
+#: GUI.py:140
+msgid "ESET;samples@eset.sk"
+msgstr ""
+
+#: GUI.py:140
+msgid "ESET;samples@eset.com"
+msgstr ""
+
+#: GUI.py:140
 msgid "Huorong;seclab@huorong.cn"
 msgstr ""
 
-#: GUI.py:139
+#: GUI.py:140
 msgid "BitDefender;oemsamples@bitdefender.com"
 msgstr ""
 
-#: GUI.py:151
+#: GUI.py:140
+msgid "BitDefender;virus_submission@bitdefender.com"
+msgstr ""
+
+#: GUI.py:152
 msgid "Other Settings: "
 msgstr "其他设置： "
 
-#: GUI.py:153
+#: GUI.py:154
 msgid "Program Language: "
 msgstr "程序语言： "
 
-#: GUI.py:158
+#: GUI.py:159
 msgid "English"
 msgstr "English"
 
-#: GUI.py:158
+#: GUI.py:159
 msgid "Chinese Simplified"
 msgstr "简体中文"
 
-#: GUI.py:168
+#: GUI.py:169
 msgid "Pack All to Desktop"
 msgstr "打包至桌面"
 
-#: GUI.py:171
+#: GUI.py:172
 msgid "Pack and Submit All"
 msgstr "打包+提交全部"
 
-#: GUI.py:242
+#: GUI.py:243
 msgid "Custom Mail Content"
 msgstr "自定义邮件内容"
 
-#: GUI.py:251
+#: GUI.py:252
 msgid "False Negative Text"
 msgstr "漏报邮件内容"
 
-#: GUI.py:256
+#: GUI.py:257
 msgid "False Positive Text"
 msgstr "误报邮件内容"
 
-#: GUI.py:277
+#: GUI.py:278
 msgid "OK"
 msgstr "确定"
 
-#: GUI.py:280
+#: GUI.py:281
 msgid "Cancel"
 msgstr "取消"
 
-#: Main.py:29
+#: Main.py:42
 msgid "Enter password for compressing"
 msgstr "输入压缩密码"
 
-#: Main.py:30
+#: Main.py:43
 msgid "Set Zip Password"
 msgstr "设置压缩密码"
 
-#: Main.py:37
+#: Main.py:50
 msgid "Password Cannot be Empty"
 msgstr "密码不能为空"
 
-#: Main.py:38 Main.py:81 Main.py:106 Sender.py:97 Sender.py:110 Sender.py:144
+#: Main.py:51 Main.py:98 Main.py:127 Sender.py:146 Sender.py:160 Sender.py:197
 msgid "ERROR"
 msgstr "错误"
 
-#: Main.py:48
+#: Main.py:62
 msgid "Password will be stored in the local config file. Continue?"
 msgstr "邮箱密码将会保存到本地配置文件。是否继续？"
 
-#: Main.py:49
+#: Main.py:63
 msgid "WARNING"
 msgstr "警告"
 
-#: Main.py:69
+#: Main.py:86
 msgid "Use \";\" to separate name and email."
 msgstr "使用“;”区分厂商名称和邮件地址。"
 
-#: Main.py:70
+#: Main.py:87
 msgid "Edit Vendor List"
 msgstr "编辑厂商列表"
 
-#: Main.py:80
+#: Main.py:97
 msgid "Incorrect Data Format"
 msgstr "数据格式错误"
 
-#: Main.py:93
+#: Main.py:112
 msgid "Sending Samples..."
 msgstr "发送样本..."
 
-#: Main.py:105
-msgid "Cannot Access Sample File(s). Check paths."
-msgstr "无法读取样本文件。请检查路径。"
+#: Main.py:125 Sender.py:158
+msgid "Cannot Access Sample File(s). Check paths.\n"
+msgstr "无法读取样本文件。请检查路径。\n"
 
-#: Main.py:110
+#: Main.py:132
 msgid "Pack to Desktop succeed!"
 msgstr "成功打包样本至桌面！"
 
-#: Main.py:111 Sender.py:153
+#: Main.py:133 Sender.py:206
 msgid "INFO"
 msgstr "信息"
 
-#: Main.py:157
+#: Main.py:187
 #, python-brace-format
 msgid ""
 "Hello,\n"
@@ -224,7 +240,7 @@ msgid ""
 "Thanks! "
 msgstr ""
 
-#: Main.py:159
+#: Main.py:189
 #, python-brace-format
 msgid ""
 "Hello,\n"
@@ -236,41 +252,40 @@ msgid ""
 "Thanks! "
 msgstr ""
 
-#: Sender.py:96
+#: Sender.py:145
 msgid "Missing or incorrect parameters. Check if all info filled correctly."
 msgstr "丢失参数或参数错误。请检查所有设置。"
 
-#: Sender.py:103
+#: Sender.py:153
 msgid "Compressing Files..."
 msgstr "压缩文件中..."
 
-#: Sender.py:108
-msgid "Cannot Access Sample File(s). Check paths.\n"
-msgstr "无法读取样本文件。请检查路径。\n"
-
-#: Sender.py:116
+#: Sender.py:168
 msgid "Composing Mail..."
 msgstr "生成邮件中..."
 
-#: Sender.py:124
+#: Sender.py:177
 msgid "Login To Your Email..."
 msgstr "登录邮箱中..."
 
-#: Sender.py:139
+#: Sender.py:192
 msgid "Sending Email..."
 msgstr "发送邮件中..."
 
-#: Sender.py:142
+#: Sender.py:195
 msgid "Login Fail. Check Internet connection, your login info, or other config.\n"
 msgstr "登录邮箱失败。请检查网络连接，登录信息，或其他设置\n"
 
-#: Sender.py:151
+#: Sender.py:204
 msgid "SUCCEED!"
 msgstr "成功！"
 
-#: Sender.py:152
+#: Sender.py:205
 msgid "Email Sent. You may login your email to check the status."
 msgstr "邮件已发送，请登录查看发送状态。"
+
+#~ msgid "Cannot Access Sample File(s). Check paths."
+#~ msgstr "无法读取样本文件。请检查路径。"
 
 #, python-brace-format
 #~ msgid ""

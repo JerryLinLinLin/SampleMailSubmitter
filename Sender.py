@@ -159,6 +159,7 @@ class SendingThread(threading.Thread):
                                   'Error: {error}\nInfo: {info}'.format(error=e.__class__.__name__, info=str(e)),
                           caption=_('ERROR'),
                           style=wx.OK | wx.ICON_ERROR)
+            sample.delete_zip()
             status.Destroy()
             return
 

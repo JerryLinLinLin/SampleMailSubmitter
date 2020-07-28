@@ -10,7 +10,7 @@
 import wx
 import wx.xrc
 
-import gettext
+# For i18n support
 _ = wx.GetTranslation
 
 ###########################################################################
@@ -39,7 +39,7 @@ class main_frame ( wx.Frame ):
 
 		wSizer1 = wx.WrapSizer( wx.HORIZONTAL, wx.WRAPSIZER_DEFAULT_FLAGS )
 
-		self.m_staticText2 = wx.StaticText( sbSizer2.GetStaticBox(), wx.ID_ANY, _(u"Email Adress: "), wx.DefaultPosition, wx.Size( 80,-1 ), wx.ALIGN_LEFT )
+		self.m_staticText2 = wx.StaticText( sbSizer2.GetStaticBox(), wx.ID_ANY, _(u"Email Address: "), wx.DefaultPosition, wx.Size( 80,-1 ), wx.ALIGN_LEFT )
 		self.m_staticText2.Wrap( -1 )
 
 		wSizer1.Add( self.m_staticText2, 0, wx.ALL, 8 )
@@ -58,7 +58,7 @@ class main_frame ( wx.Frame ):
 		self.reme_ps_check = wx.CheckBox( sbSizer2.GetStaticBox(), wx.ID_ANY, _(u"Remember"), wx.DefaultPosition, wx.DefaultSize, 0 )
 		wSizer1.Add( self.reme_ps_check, 0, wx.ALL, 8 )
 
-		self.m_staticText4 = wx.StaticText( sbSizer2.GetStaticBox(), wx.ID_ANY, _(u"SMTP Adress: "), wx.DefaultPosition, wx.Size( 80,-1 ), wx.ALIGN_LEFT )
+		self.m_staticText4 = wx.StaticText( sbSizer2.GetStaticBox(), wx.ID_ANY, _(u"SMTP Address: "), wx.DefaultPosition, wx.Size( 80,-1 ), wx.ALIGN_LEFT )
 		self.m_staticText4.Wrap( -1 )
 
 		wSizer1.Add( self.m_staticText4, 0, wx.ALL, 8 )
