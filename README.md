@@ -18,3 +18,7 @@ A tool for automatically sending suspicious/false-flag files via email to Antivi
  2. Input your email info, SMTP and port info.
  3. Select the Antivirus vendors you want to send.
  4. Click Submit button and done.
+
+## Licence
+
+See the [LICENSE](LICENSE.md) file for license rights and limitations (MIT).
